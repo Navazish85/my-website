@@ -1,0 +1,156 @@
+/**************************** tags selectors*****************/
+body {
+    background-color: #D7FFFD;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1 {
+    font-size: 5.6rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Merriweather', cursive;
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #72b7d4 8px;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 10%;
+}
+
+a {
+    color: #11999E;
+    margin: 20px 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/************************* class selectors***********************/
+.top-container {
+    background-color: #D7FFFD;
+    position: relative;
+    padding-top: 120px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 100px;
+}
+
+.middle-cloud {
+    position: absolute;
+    left: 200px;
+
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+}
+
+.full-stack {
+    width: 35%;
+    float: left;
+    margin: 20px;
+}
+
+.soft-dev {
+    width: 35%;
+    float: right;
+}
+
+.cooking {
+    width: 30%;
+    float: left;
+}
+
+.middle-container {
+    background-color: #D7FFFD;
+}
+
+.profile-img {
+    margin-top: 100px;
+}
+
+.contact-msg {
+    width: 40%;
+    margin: 40px auto 100px;
+}
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.contact-me {
+    margin-bottom: 100px;
+}
+
+.bottom-container {
+    background-color: rgb(70, 214, 219);
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+
+}
